@@ -53,8 +53,8 @@ class GetUserCurrentLocaton extends GetxController{
     // prediction?
     var  p = await PlacesAutocomplete.show(
       context: Get.context!,
-      // apiKey: "AIzaSyAxx2cI6NVwCr9udAWg4NrPxGiyiajQ9tg",
-      apiKey: "AIzaSyCSiSdgeCctNGs33wqaPUIiFvXj5S2OQDw",
+      // apiKey: "",
+      apiKey: "",
       onError: onError,
       mode: Mode.fullscreen, // or Mode.fullscreen
       language: 'IN',
